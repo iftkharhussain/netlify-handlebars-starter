@@ -1,0 +1,13 @@
+{
+  "name": "netlify-handlebars-starter",
+  "version": "1.0.0",
+  "repository": "https://github.com/jhsu98/netlify-handlebars-starter.git",
+  "author": "jhsu98 <jhsu98@gmail.com>",
+  "license": "UNLICENSE",
+  "devDependencies": {
+    "netlify-cli": "^9.16.6"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  }
+}

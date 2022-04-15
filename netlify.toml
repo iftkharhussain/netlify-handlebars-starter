@@ -1,0 +1,15 @@
+[build]
+    publish = "site"
+    functions = "functions"
+
+[dev]
+    autoLaunch=false
+
+[functions]
+    [functions.hello]
+        included_files = ["templates/hello.hbs"]
+
+[[redirects]]
+    from = "/hello"
+    to = "/.netlify/functions/hello"
+    status = 200
